@@ -1,0 +1,59 @@
+@import 'heading.css';
+.w{
+  width: 1400px;
+  padding: 0;
+}
+html {
+  //网页背景色
+    background-color: #ece0a1;
+  }
+  .btn_area{
+    width: 100%;
+    min-width: 410px;
+    text-align: center;
+    p{
+      margin-top: 5px;
+      display: block;
+    }
+  }
+  //触发按钮
+  .heitabtn {
+    display: block;
+    height: 50px;
+    width: 130px;
+    background-color: #9d30f0;
+    outline: 0;
+    border: 0;
+    margin:0 auto;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  //动画显示处
+  .box{
+    position: relative;
+    height: 310px;
+    overflow: hidden;
+  }
+  //动画盒子
+  .heita {
+    position: absolute;
+    top: 10px;
+    height: (500px/3);
+    width: (491px/3);
+    background-repeat:  no-repeat;
+    background-position: center center;
+    background-size: cover;
+    animation: identifier linear 20s forwards;
+    
+  }
+  //动画关键帧
+  @keyframes identifier {
+    0%{
+      transform: translateX(0px);
+    }
+    100%{
+      transform: translateX(9999px);
+    }
+  }
+  

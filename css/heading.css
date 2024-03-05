@@ -1,0 +1,84 @@
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 100%;
+  min-width: 420px;
+  height: 160px;
+  background-color: #3d227f;
+}
+.classify {
+  flex: 1;
+}
+.img {
+  flex: 1;
+  height: 160px;
+  width: 160px;
+  background-color: #fff;
+  background: url("../img/Heita/heita2.png") no-repeat;
+  background-position: center center;
+  background-size: auto 100%;
+}
+.title {
+  flex: 1;
+  height: 100%;
+  width: 320px;
+  line-height: 160px;
+  font-size: 68px;
+  color: aliceblue;
+  font-weight: bolder;
+  text-align: center;
+}
+.img1 {
+  flex: 1;
+  height: 160px;
+  width: 160px;
+  background-color: #fff;
+  background: url("../img/Heita/heita1.png") no-repeat;
+  background-position: center center;
+  background-size: auto 100%;
+}
+.img2 {
+  flex: 1;
+  height: 160px;
+  width: 160px;
+  background-color: #fff;
+  background: url("../img/Heita/heita3.png") no-repeat;
+  background-position: center center;
+  background-size: auto 100%;
+}
+.img3 {
+  flex: 1;
+  height: 160px;
+  width: 160px;
+  background-color: #fff;
+  background: url("../img/Heita/heita4.png") no-repeat;
+  background-position: center center;
+  background-size: auto 100%;
+}
+.img4 {
+  flex: 1;
+  height: 160px;
+  width: 160px;
+  background-color: #fff;
+  background: url("../img/Heita/heita5.png") no-repeat;
+  background-position: center center;
+  background-size: auto 100%;
+}
+.img5 {
+  flex: 1;
+  height: 160px;
+  width: 160px;
+  background-color: #fff;
+  background: url("../img/Heita/heita6.png") no-repeat;
+  background-position: center center;
+  background-size: auto 100%;
+}
+.login {
+  flex: 1 ;
+}
+p {
+  position: relative;
+  margin: 0 auto;
+}

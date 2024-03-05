@@ -1,0 +1,52 @@
+@import 'heading.css';
+.w {
+  width: 1400px;
+  padding: 0;
+}
+html {
+  background-color: #ece0a1;
+}
+.btn_area {
+  width: 100%;
+  min-width: 410px;
+  text-align: center;
+}
+.btn_area p {
+  margin-top: 5px;
+  display: block;
+}
+.heitabtn {
+  display: block;
+  height: 50px;
+  width: 130px;
+  background-color: #9d30f0;
+  outline: 0;
+  border: 0;
+  margin: 0 auto;
+}
+.heitabtn:hover {
+  cursor: pointer;
+}
+.box {
+  position: relative;
+  height: 310px;
+  overflow: hidden;
+}
+.heita {
+  position: absolute;
+  top: 10px;
+  height: 166.66666667px;
+  width: 163.66666667px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  animation: identifier linear 20s forwards;
+}
+@keyframes identifier {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(9999px);
+  }
+}
